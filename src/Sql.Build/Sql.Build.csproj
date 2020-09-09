@@ -3,6 +3,6 @@
     <TargetFramework>netstandard2.1</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="..\Sql\**\*.sql" />
+    <Content Include="..\Sql\dbo\*.sql" />
   </ItemGroup>
 </Project>
