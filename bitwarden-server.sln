@@ -61,6 +61,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Portal", "bitwarden_license
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sso", "bitwarden_license\src\Sso\Sso.csproj", "{4866AF64-6640-4C65-A662-A31E02FF9064}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sql.Build", "src\Sql.Build\Sql.Build.csproj", "{4245FA6A-6611-4C13-90B8-EBC115780C94}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -76,8 +78,6 @@ Global
 		{E8548AD6-7FB0-439A-8EB5-549A10336D2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8548AD6-7FB0-439A-8EB5-549A10336D2D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{58554E52-FDEC-4832-AFF9-302B01E08DCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{58554E52-FDEC-4832-AFF9-302B01E08DCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{58554E52-FDEC-4832-AFF9-302B01E08DCA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{58554E52-FDEC-4832-AFF9-302B01E08DCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58554E52-FDEC-4832-AFF9-302B01E08DCA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{58554E52-FDEC-4832-AFF9-302B01E08DCA}.Release|Any CPU.Deploy.0 = Release|Any CPU
@@ -137,6 +137,10 @@ Global
 		{4866AF64-6640-4C65-A662-A31E02FF9064}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4866AF64-6640-4C65-A662-A31E02FF9064}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4866AF64-6640-4C65-A662-A31E02FF9064}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4245FA6A-6611-4C13-90B8-EBC115780C94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4245FA6A-6611-4C13-90B8-EBC115780C94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4245FA6A-6611-4C13-90B8-EBC115780C94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4245FA6A-6611-4C13-90B8-EBC115780C94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -159,6 +163,7 @@ Global
 		{860DE301-0B3E-4717-9C21-A9B4C3C2B121} = {DD5BD056-4AAE-43EF-BBD2-0B569B8DA84F}
 		{BA852F18-852F-4154-973B-77D577B8CA04} = {4FDB6543-F68B-4202-9EA6-7FEA984D2D0A}
 		{4866AF64-6640-4C65-A662-A31E02FF9064} = {4FDB6543-F68B-4202-9EA6-7FEA984D2D0A}
+		{4245FA6A-6611-4C13-90B8-EBC115780C94} = {DD5BD056-4AAE-43EF-BBD2-0B569B8DA84D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E01CBF68-2E20-425F-9EDB-E0A6510CA92F}

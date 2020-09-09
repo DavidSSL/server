@@ -1,0 +1,8 @@
+<Project Sdk="MSBuild.Sdk.SqlProj/1.6.1">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="..\Sql\**\*.sql" />
+  </ItemGroup>
+</Project>
